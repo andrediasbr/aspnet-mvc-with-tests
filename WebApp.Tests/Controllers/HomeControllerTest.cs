@@ -39,19 +39,6 @@ namespace WebApp.Tests.Controllers
         }
         
         [TestMethod]
-        public void AboutFail()
-        {
-            // Arrange
-            HomeController controller = new HomeController();
-
-            // Act
-            ViewResult result = controller.About() as ViewResult;
-
-            // Assert
-            Assert.AreEqual("Your application descripppption page. ", result.ViewBag.Message);
-        }        
-
-        [TestMethod]
         public void Contact()
         {
             // Arrange
